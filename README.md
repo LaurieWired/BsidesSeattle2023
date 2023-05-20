@@ -1,6 +1,6 @@
 <div align="center">
 
-![Android Undercover](https://user-images.githubusercontent.com/123765654/234373954-eecb21ac-30d4-4d22-bc55-43944117e332.jpg)
+![godfather_unmask](https://github.com/LaurieWired/BsidesSeattle2023/assets/123765654/8383378e-eb84-4c6a-9904-d22041a49fee)
 
 </div>
 
@@ -8,7 +8,7 @@
 
 Welcome to a deep-dive analysis of the notorious Godfather Android banking trojan. This repository contains notes, slides, and code related to my BSides Seattle 2023 talk "Unmasking the Godfather".  
 
-In this presentation, I provide an insightful reverse-engineering walkthrough to demystify one of the most contemporary threats in the mobile banking industry.
+In this presentation, I provide a reverse-engineering walkthrough to demystify one of the most contemporary threats in the mobile banking industry.
 
 ---
 
