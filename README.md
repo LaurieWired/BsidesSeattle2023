@@ -20,7 +20,7 @@ If you want to follow along during the talk, make sure you have the following to
 
 Slides are located in the repository under:
 
-[AndroidUndercover_Defcon615_slides.pdf](https://github.com/LaurieWired/AndroidNativeObfuscation_defcon615/blob/main/AndroidUndercover_Defcon615_slides.pdf)
+[UnmaskingTheGodfather.pdf](https://github.com/LaurieWired/BsidesSeattle2023/blob/main/UnmaskingTheGodfather.pdf)
 
 ## Other Resources
 
