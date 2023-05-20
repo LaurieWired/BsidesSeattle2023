@@ -31,6 +31,14 @@ The slides accompanying the talk can be found in the repository at the following
 
 ---
 
+## :bug: **Marked Up Sample**
+
+My fully marked up Godfather Sample can be found at the following link:
+
+- [marked_up_godfather_jadx](https://github.com/LaurieWired/BsidesSeattle2023/blob/main/marked_up_godfather_a14aad1265eb3.jadx)
+
+---
+
 ## :book: **Supplementary Resources**
 
 Additional references to supplement the content of this talk:
