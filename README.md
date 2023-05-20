@@ -1,53 +1,68 @@
+<div align="center">
 
-![android_undercovewr](https://user-images.githubusercontent.com/123765654/234373954-eecb21ac-30d4-4d22-bc55-43944117e332.jpg)
+![Android Undercover](https://user-images.githubusercontent.com/123765654/234373954-eecb21ac-30d4-4d22-bc55-43944117e332.jpg)
 
+</div>
 
-# Unmasking the Godfather
-During this talk, I Reverse Engineer one of the Latest Android Banking Trojans, the Godfather.
+# **Unmasking the Godfather**
 
-## Required Software
-If you want to follow along during the talk, make sure you have the following tools and code downloaded:
+Welcome to a deep-dive analysis of the notorious Godfather Android banking trojan. This repository contains notes, slides, and code related to my BSides Seattle 2023 talk "Unmasking the Godfather".  
 
-- [JADX (Java Decompiler / Disassembler for Android)](https://github.com/skylot/jadx)
-- [Ghidra (C / C++ Decompiler / Disassembler)](https://ghidra-sre.org/)
-- [Docker-Android (Emulator for Android)](https://github.com/budtmo/docker-android)
-- [Recaf (Up-and-coming Java bytecode editor)](https://github.com/Col-E/Recaf)
+In this presentation, I provide an insightful reverse-engineering walkthrough to demystify one of the most contemporary threats in the mobile banking industry.
 
+---
 
+## :gear: **Prerequisites**
 
+If you'd like to follow the session interactively, ensure you have these tools installed and their respective source codes downloaded:
 
-## Slides
+- **JADX** - Java Decompiler/Disassembler for Android. Available [here](https://github.com/skylot/jadx).
+- **Ghidra** - C/C++ Decompiler/Disassembler. Available [here](https://ghidra-sre.org/).
+- **Docker-Android** - A reliable Android emulator. Available [here](https://github.com/budtmo/docker-android).
+- **Recaf** - An emerging Java bytecode editor. Available [here](https://github.com/Col-E/Recaf).
 
-Slides are located in the repository under:
+---
 
-[UnmaskingTheGodfather.pdf](https://github.com/LaurieWired/BsidesSeattle2023/blob/main/UnmaskingTheGodfather.pdf)
+## :clipboard: **Presentation Slides**
 
-## Other Resources
+The slides accompanying the talk can be found in the repository at the following link:
 
-- [Full Anubis banker analysis (in progress)](https://www.youtube.com/watch?v=Vs9Z3NDnVT8)
-- [Hooking Android Methods with Frida](https://www.youtube.com/watch?v=RJXsvAjZl9U)
-- [Running an Android ARM emulator](https://www.youtube.com/watch?v=fTT5hxiMv6I)
+- [UnmaskingTheGodfather.pdf](https://github.com/LaurieWired/BsidesSeattle2023/blob/main/UnmaskingTheGodfather.pdf)
 
-## Malware Sample Links
+---
+
+## :book: **Supplementary Resources**
+
+Additional references to supplement the content of this talk:
+
+- [Comprehensive Anubis Banker Analysis (Work-in-Progress)](https://www.youtube.com/watch?v=Vs9Z3NDnVT8)
+- [How to Hook Android Methods with Frida](https://www.youtube.com/watch?v=RJXsvAjZl9U)
+- [Guide to Running an Android ARM Emulator](https://www.youtube.com/watch?v=fTT5hxiMv6I)
+
+---
+
+## :microscope: **Malware Sample Links**
+
+Explore and analyze these real-world samples of the Godfather and other Android banking trojans:
 
 ### Godfather Samples
-[0b72c22517fdefd4cf0466d8d4c634ca73b7667d378be688efe131af4ac3aed8](https://bazaar.abuse.ch/sample/0b72c22517fdefd4cf0466d8d4c634ca73b7667d378be688efe131af4ac3aed8/)
-[A14aad1265eb307fbe71a3a5f6e688408ce153ff19838b3c5229f26ee3ece5dd](https://bazaar.abuse.ch/sample/a14aad1265eb307fbe71a3a5f6e688408ce153ff19838b3c5229f26ee3ece5dd/)
+- [Sample 1](https://bazaar.abuse.ch/sample/0b72c22517fdefd4cf0466d8d4c634ca73b7667d378be688efe131af4ac3aed8/)
+- [Sample 2](https://bazaar.abuse.ch/sample/a14aad1265eb307fbe71a3a5f6e688408ce153ff19838b3c5229f26ee3ece5dd/)
 
-### Other Android Banker Samples
+### Other Android Banking Trojans
 #### Cerberus
-[c81234b6ceb3572c6d862a9313e019b98efd83165d8c085bd3e74971c66763bb](https://bazaar.abuse.ch/sample/c81234b6ceb3572c6d862a9313e019b98efd83165d8c085bd3e74971c66763bb/)
+- [Sample](https://bazaar.abuse.ch/sample/c81234b6ceb3572c6d862a9313e019b98efd83165d8c085bd3e74971c66763bb/)
 
 #### Anubis
-[731c0da8d74adbb557a0abd4ec2aa6c61e09d429560d76549881f08e564b27cd](https://bazaar.abuse.ch/sample/731c0da8d74adbb557a0abd4ec2aa6c61e09d429560d76549881f08e564b27cd/)
+- [Sample](https://bazaar.abuse.ch/sample/731c0da8d74adbb557a0abd4ec2aa6c61e09d429560d76549881f08e564b27cd/)
 
 #### Sharkbot
-[71c78101f7792fe879a082e323fed89c5e4a43132d01d3f79ed02afd8db45497](https://bazaar.abuse.ch/sample/71c78101f7792fe879a082e323fed89c5e4a43132d01d3f79ed02afd8db45497/)
+- [Sample](https://bazaar.abuse.ch/sample/71c78101f7792fe879a082e323fed89c5e4a43132d01d3f79ed02afd8db45497/)
 
-### Anubis Leaked Source Code
-- Full Android Anubis source code (Android.Anubis.b.7z): 
+---
 
-  - https://github.com/vxunderground/MalwareSourceCode/tree/main/Android\
+### :lock: Anubis Leaked Source Code
 
-- Password: infected
+Access the complete Android Anubis source code [here](https://github.com/vxunderground/MalwareSourceCode/tree/main/Android).
 
+Archive Password: `infected`
