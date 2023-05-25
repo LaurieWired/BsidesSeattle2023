@@ -1,6 +1,6 @@
 <div align="center">
 
-![godfather_unmask](https://github.com/LaurieWired/BsidesSeattle2023/assets/123765654/8383378e-eb84-4c6a-9904-d22041a49fee)
+![mask](https://github.com/LaurieWired/BsidesSeattle2023/assets/123765654/9939ac9d-d07d-47fa-8e5e-e961ad949a44)
 
 </div>
 
